@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: ghcr.io/shclub/edu12-backend 
+        image: ghcr.io/sbson/edu12-backend 
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: "prd"
